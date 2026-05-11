@@ -31,3 +31,24 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### 🔥 Secret / Sensitive Files (ADDED) 🔥 ###
+# Database credentials - NEVER upload to GitHub
+src/main/resources/application.properties
+src/main/resources/application-local.properties
+src/main/resources/application-dev.properties
+src/main/resources/application-prod.properties
+*.key
+*.pem
+*.p12
+.env
+secrets.properties
+
+### Logs ###
+*.log
+logs/
+
+### OS Files ###
+.DS_Store
+Thumbs.db
+desktop.ini"frontend/node_modules/" 
